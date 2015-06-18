@@ -80,7 +80,7 @@ EOT;
 function getTimestampStub()
 {
     return <<<EOT
-Schema::create('{{table}}', function(Blueprint \$table) {
+Schema::create('{{table}}', function (Blueprint \$table) {
             \$table->increments('id');
             \$table->date('created_at');
         });
